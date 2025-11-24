@@ -28,7 +28,7 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f8fafc] to-[#e0e7ef]">
       <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl p-8 sm:p-12 flex flex-col items-center">
         <div className="mb-8 flex flex-col items-center">
-          <img src="/logo1.png" alt="Logo" className="w-16 h-16 mb-2" />
+          {/* <img src="/logo1.png" alt="Logo" className="w-16 h-16 mb-2" /> */}
           <h1 className="text-3xl font-extrabold text-gray-900 font-['Source_Serif_4'] mb-1">Admin Login</h1>
           <p className="text-gray-500 text-base font-medium">Sign in to your admin account</p>
         </div>
