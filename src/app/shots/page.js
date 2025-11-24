@@ -8,7 +8,7 @@ export default async function Page({ searchParams }) {
   const baseUrl =
     process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000/api/v1";
 
-  // Convert params to a plain object, then to query string
+  // Convert params to a plain object, then to query strings
   const query =
     params && typeof params === "object"
       ? new URLSearchParams(
