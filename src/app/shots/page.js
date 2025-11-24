@@ -2,7 +2,7 @@
 import AllShots from "../../../components/shots/allshots/AllShots";
 
 export default async function Page({ searchParams }) {
-  // Await searchParams to get the actual object
+  // Await searchParams to get the actual objects
   const params = await searchParams;
 
   const baseUrl =
