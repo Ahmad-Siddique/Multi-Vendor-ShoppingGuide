@@ -72,7 +72,7 @@ export default function HeroSection() {
             {/* CTA Buttons Row */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button
-                onClick={() => router.push('/products')}
+                onClick={() => router.push('/shop')}
                 className="px-8 py-4 bg-gray-900 hover:bg-gray-800 text-white font-semibold rounded-xl shadow-lg transition-all duration-200 transform hover:scale-105 text-base"
               >
                 Browse All Products
