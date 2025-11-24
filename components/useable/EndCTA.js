@@ -96,7 +96,7 @@ const CTASection = () => {
 
               {/* CTA Button */}
               <button
-                onClick={() => router.push('/products')}
+                onClick={() => router.push('/shop')}
                 className="w-full flex items-center justify-center gap-3 px-8 py-5 bg-white hover:bg-gray-100 text-pink-600 font-bold text-lg rounded-xl shadow-xl transition-all duration-200 transform hover:scale-105 group-hover:shadow-2xl"
               >
                 Browse Products
@@ -155,7 +155,7 @@ const CTASection = () => {
 
               {/* CTA Button */}
               <button
-                onClick={() => router.push('/register-advertiser')}
+                onClick={() => router.push('/signup')}
                 className="w-full flex items-center justify-center gap-3 px-8 py-5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white font-bold text-lg rounded-xl shadow-xl transition-all duration-200 transform hover:scale-105 group-hover:shadow-2xl"
               >
                 Register Your Store
