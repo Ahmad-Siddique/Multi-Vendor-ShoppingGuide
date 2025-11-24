@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <div className="h-20" />
         {children}
         </AuthProvider>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
